@@ -1,5 +1,4 @@
-#ifndef SIMULATION_H
-#define SIMULATION_H
+#pragma once
 
 #include <stdlib.h>
 #include <iostream>
@@ -13,5 +12,3 @@ class Simulation {
             env = Environment();
         }
 };
-
-#endif

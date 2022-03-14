@@ -1,5 +1,4 @@
-#ifndef STRUCTS_H
-#define STRUCTS_H
+#pragma once
 
 struct Pos {
     uint32_t x;
@@ -15,5 +14,3 @@ struct Pos {
         y = y_;
     }
 };
-
-#endif
